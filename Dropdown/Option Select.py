@@ -5,15 +5,13 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 
 
-#1 Open Browser
-
-driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()))
- #open website
+driver =  webdriver.Firefox(service=Service(GeckoDriverManager().install()))
 
 driver.get("https://the-internet.herokuapp.com/dropdown")
+dropdown = driver.find_element(By.ID,"dropdown")
 
-dropdown = driver.find_element(By.ID,' dropdown')
-
-dropdownOptions =  Select (dropdown)
-for opt in dropdownOptions.options:
-    print(opt.text)
+options = Select(dropdown)
+#options.select_by_index(1)
+#or ucan use
+options.select_by_value("1")
+#driver.close()
