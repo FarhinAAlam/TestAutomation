@@ -1,0 +1,21 @@
+1649171614212	geckodriver	INFO	Listening on 127.0.0.1:57214
+1649171617314	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57215" "-no-remote" "-profile" "C:\\Users\\DCL\\AppData\\Local\\Temp\\rust_mozprofileOnX2ID"
+1649171629777	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DCL\\AppData\\Local\\Temp\\rust_mozprofileOnX2ID\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+DevTools listening on ws://localhost:57215/devtools/browser/15f2dfed-8102-4a3f-ba57-10f6abc5ae9e
+1649171664348	Marionette	INFO	Listening on port 57220
+1649171664805	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649171963891	Marionette	INFO	Stopped listening on port 57220
+[Parent 8248, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+r("Could not open the file at C:\\Users\\DCL\\AppData\\Local\\Temp\\rust_mozprofilewCiRID\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57316/devtools/browser/91e79e55-93e0-4adc-9a24-2b7966e397ff
+1649171945199	Marionette	INFO	Listening on port 57322
+1649171945852	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649171965404	Marionette	INFO	Stopped listening on port 57322
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.

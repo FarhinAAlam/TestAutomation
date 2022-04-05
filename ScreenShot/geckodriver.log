@@ -1,0 +1,16 @@
+1649173467098	geckodriver	INFO	Listening on 127.0.0.1:57430
+1649173470052	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57431" "-no-remote" "-profile" "C:\\Users\\DCL\\AppData\\Local\\Temp\\rust_mozprofilelC1RWf"
+1649173473506	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DCL\\AppData\\Local\\Temp\\rust_mozprofilelC1RWf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57431/devtools/browser/88032cb1-97ad-466e-b9c8-6f7e3eed8713
+1649173497791	Marionette	INFO	Listening on port 57436
+1649173498075	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.apple.com/metrics/ac-target/latest/ac-target.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1649179496751	Marionette	INFO	Stopped listening on port 57436
+[Parent 6828, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 6828, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
