@@ -1,0 +1,45 @@
+1649146205120	geckodriver	INFO	Listening on 127.0.0.1:57897
+1649146208152	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57898" "-no-remote" "-profile" "C:\\Users\\DCL\\AppData\\Local\\Temp\\rust_mozprofileUExn0w"
+1649146210584	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DCL\\AppData\\Local\\Temp\\rust_mozprofileUExn0w\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57898/devtools/browser/150caa89-c654-414c-8327-bec87f412695
+1649146222679	Marionette	INFO	Listening on port 57905
+1649146223550	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649146245608	Marionette	INFO	Stopped listening on port 57905
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1649149256325	geckodriver	INFO	Listening on 127.0.0.1:59899
+1649149259377	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59900" "-no-remote" "-profile" "C:\\Users\\DCL\\AppData\\Local\\Temp\\rust_mozprofilemeYbXI"
+1649149262433	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DCL\\AppData\\Local\\Temp\\rust_mozprofilemeYbXI\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59900/devtools/browser/a312723f-715f-4b9a-98ac-24b90245cd1c
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1649149277450	Marionette	INFO	Listening on port 59906
+1649149278433	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649149785108	Marionette	INFO	Stopped listening on port 59906
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1649149793568	geckodriver	INFO	Listening on 127.0.0.1:60374
+1649149796630	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60375" "-no-remote" "-profile" "C:\\Users\\DCL\\AppData\\Local\\Temp\\rust_mozprofileT1h9iF"
+1649149799166	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DCL\\AppData\\Local\\Temp\\rust_mozprofileT1h9iF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60375/devtools/browser/10fbc576-a2e9-43d8-9a1e-a87163b984d5
+1649149828100	Marionette	INFO	Listening on port 60382
+1649149828960	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.browserstack.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.browserstack.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.browserstack.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.browserstack.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.browserstack.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.browserstack.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.browserstack.com"
+1649150230367	Marionette	INFO	Stopped listening on port 60382
+[Parent 10996, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 10996, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 10996, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"RemoteSettingsClient - finish IDB access.","state":["importChanges() in security-state/intermediates"],"filename":"resource://services-settings/Database.jsm","lineNumber":472,"stack":["resource://services-settings/Database.jsm:ensureShutdownBlocker:472","resource://services-settings/Database.jsm:Database:28","resource://services-settings/RemoteSettingsClient.jsm:RemoteSettingsClient/<:286","resource://gre/modules/XPCOMUtils.jsm:get:62","resource://services-settings/RemoteSettingsClient.jsm:get:361","resource://gre/modules/URLDecorationAnnotationsService.jsm:ensureUpdated:67","resource://gre/modules/URLDecorationAnnotationsService.jsm:observe:47"]}] Barrier: profile-before-change
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+

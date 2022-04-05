@@ -99,3 +99,25 @@ DevTools listening on ws://localhost:63868/devtools/browser/08925caa-07c2-40e3-9
 1648710575059	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1648710590184	Marionette	INFO	Stopped listening on port 63873
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1649139949065	geckodriver	INFO	Listening on 127.0.0.1:64171
+1649139951839	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64172" "-no-remote" "-profile" "C:\\Users\\DCL\\AppData\\Local\\Temp\\rust_mozprofilen8JewW"
+1649139959415	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DCL\\AppData\\Local\\Temp\\rust_mozprofilen8JewW\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+DevTools listening on ws://localhost:64172/devtools/browser/98edeaa1-d816-4605-9755-3a4fb4c7e53a
+1649139984420	Marionette	INFO	Listening on port 64177
+1649139984662	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649140037103	Marionette	INFO	Stopped listening on port 64177
+1649145885425	geckodriver	INFO	Listening on 127.0.0.1:57662
+1649145888233	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57663" "-no-remote" "-profile" "C:\\Users\\DCL\\AppData\\Local\\Temp\\rust_mozprofileM19HS2"
+1649145897559	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DCL\\AppData\\Local\\Temp\\rust_mozprofileM19HS2\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+DevTools listening on ws://localhost:57663/devtools/browser/f53f1a07-c5ad-4b3e-8514-65c53f095918
+1649145930284	Marionette	INFO	Listening on port 57669
+1649145930913	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Parent 3384, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1649145937013	Marionette	INFO	Stopped listening on port 57669
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
